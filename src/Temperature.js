@@ -6,11 +6,11 @@ export default function Temperature(props) {
     <div className="Temperature col">
       <img className="main-image" id="icon" alt="main icon" src={props.image} />
       <span id="degrees">{props.degrees}</span>
-      <a href="#" id="celcius" className="active">
+      <a href="/" id="celcius" className="active">
         °C
       </a>
       |
-      <a href="#" id="farenheit">
+      <a href="/" id="farenheit">
         °F
       </a>
       <ul className="forecast">
