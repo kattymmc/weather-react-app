@@ -1,0 +1,29 @@
+.Temperature .forecast {
+  padding-left: 0px;
+}
+
+.Temperature .forecast li {
+  list-style: none;
+}
+
+.Temperature #description::first-letter {
+  text-transform: capitalize;
+}
+
+.Temperature span#degrees {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.Temperature .main-image {
+  vertical-align: top;
+  width: 90px;
+}
+
+.Temperature .active {
+  color: black;
+  cursor: default;
+}
+.Temperature .active:hover {
+  color: black;
+}

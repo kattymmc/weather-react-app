@@ -1,0 +1,12 @@
+.DailyForecast .weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+.DailyForecast .weather-forecast-temperature {
+  font-size: 13px;
+}
+
+.DailyForecast .weather-forecast-temperature-min {
+  opacity: 0.7;
+}

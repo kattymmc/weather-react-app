@@ -1,0 +1,12 @@
+.Forecast .forecast {
+  padding-left: 0px;
+}
+
+.Forecast .forecast li {
+  list-style: none;
+}
+
+.Forecast span#city {
+  font-size: 45px;
+  font-weight: bold;
+}

@@ -1,0 +1,8 @@
+.HourlyForecast .weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+.HourlyForecast .weather-forecast-temperature {
+  font-size: 13px;
+}
