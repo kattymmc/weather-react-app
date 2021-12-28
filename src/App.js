@@ -18,11 +18,12 @@ function App() {
           href="https://github.com/kattymmc/weather-react-app"
           alt="GitHub"
           target="_blank"
+          rel="noreferrer"
         >
           Open-source code
         </a>
         , by Katherine Miraval from{" "}
-        <a href="https://www.shecodes.io/" alt="SheCodes" target="_blank">
+        <a href="https://www.shecodes.io/" alt="SheCodes" target="_blank" rel="noreferrer">
           She Codes
         </a>
       </p>
