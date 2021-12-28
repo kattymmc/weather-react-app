@@ -1,5 +1,5 @@
 import "./index.css";
-import './App.css';
+import "./App.css";
 import Search from "./Search";
 import WeatherData from "./WeatherData";
 import WeatherDailyData from "./WeatherDailyData";
@@ -13,6 +13,19 @@ function App() {
         <WeatherData />
         <WeatherDailyData />
       </div>
+      <p>
+        <a
+          href="https://github.com/kattymmc/weather-react-app"
+          alt="GitHub"
+          target="_blank"
+        >
+          Open-source code
+        </a>
+        , by Katherine Miraval from{" "}
+        <a href="https://www.shecodes.io/" alt="SheCodes" target="_blank">
+          She Codes
+        </a>
+      </p>
     </div>
   );
 }
