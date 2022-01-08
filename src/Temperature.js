@@ -1,4 +1,5 @@
 import React from "react";
+import WeatherIcon from "./WeatherIcon";
 import "./Temperature.css";
 
 export default function Temperature(props) {
@@ -14,7 +15,7 @@ export default function Temperature(props) {
   }
   return (
     <div className="Temperature col">
-      <img className="main-image" id="icon" alt="main icon" src={props.image} />
+      <WeatherIcon code={props.image} alt={props.description}/>
       <span id="degrees">{props.degrees}</span>
       <a href="/" id="celcius" className="active">
         °C

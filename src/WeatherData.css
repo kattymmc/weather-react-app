@@ -10,3 +10,12 @@
 .WeatherData .weather-hourly-forecast .col-2:hover {
   background-color: #ffe9d1;
 }
+
+.Search.search {
+  text-align: center;
+}
+
+.Search.search #search {
+  width: 30%;
+  display: inline;
+}
