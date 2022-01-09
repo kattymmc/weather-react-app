@@ -1,0 +1,13 @@
+.WeatherConversion .degrees {
+    font-size: 45px;
+    font-weight: bold;
+  }
+  
+.WeatherConversion .active {
+color: black;
+cursor: default;
+}
+.WeatherConversion .active:hover {
+color: black;
+}
+  

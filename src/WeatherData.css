@@ -11,11 +11,11 @@
   background-color: #ffe9d1;
 }
 
-.Search.search {
+.WeatherData .search {
   text-align: center;
 }
 
-.Search.search #search {
+.WeatherData .search #search {
   width: 30%;
   display: inline;
 }

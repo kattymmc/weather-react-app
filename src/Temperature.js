@@ -1,5 +1,6 @@
 import React from "react";
 import WeatherIcon from "./WeatherIcon";
+import WeatherConversion from "./WeatherConversion";
 import "./Temperature.css";
 
 export default function Temperature(props) {
@@ -16,14 +17,8 @@ export default function Temperature(props) {
   return (
     <div className="Temperature col">
       <WeatherIcon code={props.image} alt={props.description}/>
-      <span id="degrees">{props.degrees}</span>
-      <a href="/" id="celcius" className="active">
-        °C
-      </a>
-      |
-      <a href="/" id="farenheit">
-        °F
-      </a>
+      <WeatherConversion celsius={props.degrees}/>
+
       <ul className="forecast">
         <li>
           <strong>Last updated: </strong>

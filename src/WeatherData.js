@@ -40,8 +40,8 @@ export default function WeatherData(props) {
 
   if(weatherData.ready){
     return (
-      <div>
-        <div className="Search search">
+      <div className="WeatherData">
+        <div className="search">
           <form className="form-inline" id="search-form" onSubmit={handleSubmit}>
             <label for="search">Enter a city </label>
             <input
@@ -56,11 +56,11 @@ export default function WeatherData(props) {
           </form>
         </div>
         <br />
-        <div className="WeatherData row border-bottom border-top border-primary border-2 pt-2 pb-2">
+        <div className="row border-top border-primary border-2 pt-2 pb-2">
           <div className="col row">
             <Forecast pressure="995" humidity={weatherData.humidity} wind={weatherData.wind} city={weatherData.city} />
             <Temperature
-              degrees={Math.round(weatherData.temperature)}
+              degrees={weatherData.temperature}
               currentTime={weatherData.date}
               description={weatherData.description}
               image={weatherData.icon}

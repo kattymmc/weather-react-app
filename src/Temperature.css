@@ -9,16 +9,3 @@
 .Temperature #description::first-letter {
   text-transform: capitalize;
 }
-
-.Temperature span#degrees {
-  font-size: 45px;
-  font-weight: bold;
-}
-
-.Temperature .active {
-  color: black;
-  cursor: default;
-}
-.Temperature .active:hover {
-  color: black;
-}

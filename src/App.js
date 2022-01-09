@@ -1,14 +1,13 @@
 import "./index.css";
 import "./App.css";
 import WeatherData from "./WeatherData";
-import WeatherDailyData from "./WeatherDailyData";
+//import WeatherDailyData from "./WeatherDailyData";
 
 function App() {
   return (
     <div className="App">
       <div className="container border border-primary border-3 rounded-1 mt-3 mb-3">
         <WeatherData defaultCity="Lima"/>
-        <WeatherDailyData />
       </div>
       <footer>
         <p>
