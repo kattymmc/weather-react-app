@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./WeatherData.css";
 import Forecast from "./Forecast";
 import Temperature from "./Temperature";
-import HourlyForecast from "./HourlyForecast";
 import WeatherDailyData from "./WeatherDailyData";
 import axios from "axios";
 
