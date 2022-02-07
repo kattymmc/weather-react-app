@@ -14,8 +14,7 @@ export default function WeatherIcon(props) {
         "50d": "mist", "50n": "mist"
       }
     let source = `/img/${codeMapping[props.code]}.png`
-    console.log(source);
   return (
-    <img className="main-image" id="icon" alt={props.description} src={source} />
+    <img className="main-image" id="icon" alt={props.description} src={source} width={props.imageWidth}/>
   );
 }

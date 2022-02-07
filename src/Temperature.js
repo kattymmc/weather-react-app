@@ -16,7 +16,7 @@ export default function Temperature(props) {
   }
   return (
     <div className="Temperature col">
-      <WeatherIcon code={props.image} alt={props.description}/>
+      <WeatherIcon code={props.image} imageWidth={90} alt={props.description}/>
       <WeatherConversion celsius={props.degrees}/>
 
       <ul className="forecast">

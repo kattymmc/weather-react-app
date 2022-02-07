@@ -1,7 +1,6 @@
 import "./index.css";
 import "./App.css";
 import WeatherData from "./WeatherData";
-//import WeatherDailyData from "./WeatherDailyData";
 
 function App() {
   return (

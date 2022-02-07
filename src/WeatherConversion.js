@@ -19,10 +19,7 @@ export default function WeatherConversion(props) {
         return (
             <span className="WeatherConversion">
                 <span className="degrees">{Math.round(props.celsius)}</span>
-                °C |
-                <a href="/" onClick={showFahrenheit}>
-                    °F
-                </a>
+                °C 
             </span>
         );
     } else {
